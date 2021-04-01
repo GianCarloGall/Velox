@@ -1,0 +1,132 @@
+body{
+    /*background: #000000;
+    background: -moz-linear-gradient(45deg, #000000 0%, #03989e 50%, #03989e 51%, #000000 100%);
+    background: -webkit-linear-gradient(45deg, #000000 0%,#03989e 50%,#03989e 51%,#000000 100%);
+    background: linear-gradient(45deg, #000000 0%,#03989e 50%,#03989e 51%,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 );*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.6em;
+    margin: 0;
+}
+h1{
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+p{
+    margin-bottom: 1.6em;
+}
+.container{
+    width: 85%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.header{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: rgb(0, 0, 0);
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+   
+}
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    letter-spacing: 15px;
+    font-size: 2em;
+}
+.menu-icon{
+    display: none;
+}
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    .navigation ul li {
+        display: inline-block;
+    }
+        .navigation ul li a{
+            display: block;
+            padding: 0.5rem 1rem;
+            transition: all 0.4s linear;
+            border-radius: 5px;
+        }
+        .navigation ul li a:hover {
+            background: #4a4a4a;
+        }
+section{
+  /* background: #000000;
+    background: -moz-linear-gradient(45deg, #000000 0%, #03989e 50%, #03989e 51%, #000000 100%);
+    background: -webkit-linear-gradient(45deg, #000000 0%,#03989e 50%,#03989e 51%,#000000 100%);
+    background: linear-gradient(45deg, #000000 0%,#03989e 50%,#03989e 51%,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 );*/
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+15,03989e+50,000000+85 */
+    background: #000000; /* Old browsers */
+    background: -moz-linear-gradient(top,  #000000 15%, #03989e 50%, #000000 85%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #000000 15%,#03989e 50%,#000000 85%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #000000 15%,#03989e 50%,#000000 85%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+    margin-bottom: 0;
+    padding-bottom: 6rem;
+}
+.footer{
+    background: black;
+    padding: 4rem 0;
+    text-align: center;
+
+}
+.main{
+    padding-top: 12rem;
+}
+@media only screen and (max-width: 767px) {
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        padding:  0.5rem 1rem;
+    }
+    .navigation{
+        width: 100%;
+        margin-top: 1rem;   
+    }
+    .navigation ul{
+        display: none;
+    }
+    .navigation ul.show{
+        display: block;
+    }
+        .navigation ul li {
+            display: block;
+        }
+            .navigation ul li a{
+                display: block;
+                padding: 0.5rem 0;
+                transition: all 0.4s linear;
+                border-radius: 5px;
+            }
+            .navigation ul li a:hover {
+                background: #4a4a4a;
+            }
+    .main{
+        margin-bottom: 0;
+        padding-bottom: 6rem;
+        margin-top: 0;
+    }
+    section{
+        margin-top: 0;
+    }
+}
