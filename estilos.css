@@ -71,6 +71,11 @@ section{
     margin-bottom: 0;
     padding-bottom: 6rem;
 }
+.section ul li{
+    line-height: 2em;
+    text-justify: auto;
+    margin-left: 1em;
+}
 .section ul{
     margin: 0;
     padding: 0;
