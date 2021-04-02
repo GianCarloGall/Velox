@@ -2,15 +2,41 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     font-size: 1rem;
-    line-height: 1.6em;
+    line-height: 1.5em;
     margin: 0;
+    text-align: justify;
 }
 h1{
     font-size: 2rem;
     line-height: 1.3em;
 }
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
 p{
-    margin-bottom: 1.6em;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+hr{
+    margin-bottom: 1rem;
+}
+.al{
+    margin-left: 1em;
+    text-align: justify;
+}
+section ul li{
+    text-align: justify;
+}
+.logoimagen{
+    width: 80px;
+    position: relative;
+    margin-left: 1px;
 }
 .container{
     width: 85%;
@@ -39,8 +65,22 @@ p{
     flex-wrap: wrap;
 }
 .logo{
+    position: relative;
+    padding-top: 1rem;
     letter-spacing: 15px;
     font-size: 2em;
+}
+.section ul li{
+    line-height: 2em;
+    text-justify: auto;
+}
+.section ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+    line-height: 1em;
 }
 .menu-icon{
     display: none;
@@ -64,18 +104,20 @@ p{
         }
 section{
     background: #000000;
-    background: -moz-linear-gradient(top,  #000000 10%, #03989e 50%, #000000 85%);
-    background: -webkit-linear-gradient(top,  #000000 10%,#03989e 50%,#000000 85%);
-    background: linear-gradient(to bottom,  #000000 10%,#03989e 50%,#000000 85%);
+    background: -moz-linear-gradient(top,  #000000 7%, #03989e 50%, #000000 93%);
+    background: -webkit-linear-gradient(top,  #000000 7%,#03989e 50%,#000000 93%);
+    background: linear-gradient(to bottom,  #000000 7%,#03989e 50%,#000000 93%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 );
     margin-bottom: 0;
     padding-bottom: 6rem;
+}
+.justificado{
+    text-align: justify;
 }
 .footer{
     background: black;
     padding: 4rem 0;
     text-align: center;
-
 }
 .footer ul{
     margin: 0;
@@ -83,6 +125,7 @@ section{
     list-style: none;
     text-decoration: none;
     text-align: center;
+
 }
     .footer ul li {
         display: inline-block;

@@ -17,6 +17,11 @@ p{
     max-width: 900px;
     margin: 0 auto;
 }
+.logoimagen{
+    width: 80px;
+    position: relative;
+    margin-left: 1px;
+}
 .header{
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -39,6 +44,7 @@ p{
     flex-wrap: wrap;
 }
 .logo{
+    position: relative;
     letter-spacing: 15px;
     font-size: 2em;
 }
