@@ -2,15 +2,24 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     font-size: 1rem;
-    line-height: 1.6em;
+    line-height: 1.5em;
     margin: 0;
+    text-align: justify;
 }
 h1{
     font-size: 2rem;
     line-height: 1.3em;
 }
+h3{
+    text-align: center;
+}
 p{
-    margin-bottom: 1.6em;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+.al{
+    margin-left: 1em;
 }
 .container{
     width: 85%;
@@ -41,6 +50,18 @@ p{
 .logo{
     letter-spacing: 15px;
     font-size: 2em;
+}
+.section ul li{
+    line-height: 2em;
+    text-justify: auto;
+}
+.section ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+    line-height: 1em;
 }
 .menu-icon{
     display: none;
