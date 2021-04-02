@@ -31,7 +31,6 @@ p{
     color: white;
     text-decoration: none;
     align-items: center;
-   
 }
 .logo-nav-container{
     display: flex;
@@ -69,9 +68,16 @@ section{
     background: -webkit-linear-gradient(top,  #000000 10%,#03989e 50%,#000000 85%);
     background: linear-gradient(to bottom,  #000000 10%,#03989e 50%,#000000 85%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 );
-
     margin-bottom: 0;
     padding-bottom: 6rem;
+}
+.section ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+    line-height: 1em;
 }
 .footer{
     background: black;
@@ -128,7 +134,7 @@ section{
                 border-radius: 5px;
             }
             .navigation ul li a:hover {
-                background: #4a4a4a;
+                background: #03989E;
             }
     .main{
         margin-bottom: 0;
