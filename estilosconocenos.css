@@ -13,13 +13,24 @@ h1{
 h3{
     text-align: center;
 }
+h4{
+    text-align: center;
+}
 p{
     margin-bottom: 1em;
     line-height: 1.5em;
     text-align: justify;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+hr{
+    margin-bottom: 1rem;
 }
 .al{
     margin-left: 1em;
+}
+.alt{
+    margin-left: 0.2em;
 }
 .container{
     width: 85%;
@@ -48,6 +59,7 @@ p{
     flex-wrap: wrap;
 }
 .logo{
+    padding-top: 1rem;
     letter-spacing: 15px;
     font-size: 2em;
 }
